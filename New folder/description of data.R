@@ -1,0 +1,5 @@
+data=read.csv("C:/sd card/ip projects/smartml/smartml/dataset/hugedata.csv")
+colSums(is.na(data))
+str(data)
+summary(data)
+data$Class=as.factor(data$Class)
